@@ -39,6 +39,13 @@ async def generate_keywords_api(prompt: str):
     keywords = generate_keywords(prompt)
     return {"snippet": snippet, "keywords": keywords}
 
+@app.get("/generate_snippet_and_tagline")
+async def generate_snippet_tagline_api(prompt: str):
+    validate_input_length(prompt)
+    snippet = generate_branding_snippet(prompt)
+    tagline = aicontent.taglineGenerator(prompt)
+    return {"snippet": snippet, "tagline": []}
+
 @app.get("/product-description")
 async def product_desc_api(prompt: str):
     validate_input_length(prompt)

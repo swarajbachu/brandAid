@@ -29,7 +29,7 @@ def validate_length(prompt: str) -> bool:
 
 def generate_keywords(prompt: str) -> List[str]:
     # Load your API key from an environment variable or secret management service
-    openai.api_key = "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"
+    openai.api_key = "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"
     enriched_prompt = f"Generate related branding keywords for {prompt}: "
     print(enriched_prompt)
 
@@ -52,7 +52,7 @@ def generate_keywords(prompt: str) -> List[str]:
 
 def generate_branding_snippet(prompt: str) -> str:
     # Load your API key from an environment variable or secret management service
-    openai.api_key = "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"
+    openai.api_key = "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"
     enriched_prompt = f"Generate upbeat branding snippet for {prompt}: "
     print(enriched_prompt)
 

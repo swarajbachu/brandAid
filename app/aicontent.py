@@ -1,6 +1,6 @@
 import os
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def productDescription(query):
