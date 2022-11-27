@@ -18,9 +18,9 @@ def productDescription(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 # query = 'Samsung Mobile'
@@ -42,9 +42,9 @@ def tweetIdeas(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 def coldEmails(query):
@@ -62,9 +62,9 @@ def coldEmails(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 
@@ -83,9 +83,9 @@ def businessPitch(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 
@@ -104,9 +104,9 @@ def videoIdeas(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 
@@ -125,9 +125,9 @@ def socialMedia(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer ='Sorry, you beat the AI this time!'
     return answer
 
 
@@ -146,9 +146,9 @@ def keywordGenerator(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 
@@ -167,9 +167,9 @@ def taglineGenerator(query):
         if len(response['choices'])>0:
             answer  = response['choices'][0]['text']
         else:
-            answer = 'Sorryy, you beat the AI this time.'
+            answer = 'Sorry, you beat the AI this time!'
     else:
-        answer = 'Sorryy, you beat the AI this time.'
+        answer = 'Sorry, you beat the AI this time!'
     return answer
 
 if __name__ == "__main__":
