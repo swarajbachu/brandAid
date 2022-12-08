@@ -78,4 +78,3 @@ def generate_branding_snippet(prompt: str) -> str:
 if __name__ == "__main__":
      main()
 # response = openai.Completion.create(engine="davinci-instruct-beta-v3", prompt="Generate upbeat branding snippet for ", max_tokens=32)
-# print(response)

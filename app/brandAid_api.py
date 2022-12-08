@@ -32,7 +32,7 @@ async def product_desc_api(prompt: str):
 @app.get("/cold-emails")
 async def cold_email_api(prompt: str):
     validate_input_length(prompt)
-    snippet = aicontent.coldEmails(prompt)
+    snippet = aicontent.coldEmails(promt)
     return {snippet}
 
 @app.get("/tweet-ideas")
