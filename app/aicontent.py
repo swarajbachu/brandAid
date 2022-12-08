@@ -1,3 +1,4 @@
+from ast import main
 import os
 import openai
 openai.api_key = "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"
@@ -173,4 +174,4 @@ def taglineGenerator(query):
     return answer
 
 if __name__ == "__main__":
-     main()
+    main()
